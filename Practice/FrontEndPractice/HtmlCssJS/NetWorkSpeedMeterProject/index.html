@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Internet Speed Meter</h1>
+
+        <div class="speed-circle">
+            <span id="speed">0</span>
+            <small>Mbps</small>
+        </div>
+
+        <button id="startBtn">Start Test</button>
+
+        <div class="stats">
+
+            <div class="card">
+                <h3>Download</h3>
+                <p id="download">0 Mbps</p>
+            </div>
+
+            <div class="card">
+                <h3>Upload</h3>
+                <p id="upload">0 Mbps</p>
+            </div>
+
+            <div class="card">
+                <h3>Ping</h3>
+                <p id="ping">0 ms</p>
+            </div>
+
+            <div class="card">
+                <h3>Jitter</h3>
+                <p id="jitter">0 ms</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
